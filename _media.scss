@@ -1,11 +1,11 @@
 // ==========================================================================
-// MEDIA OBJECT
+// Media Object Atom
 // ==========================================================================
 
 /*doc
 ---
 title: Media
-name: 1_media
+name: media
 category: atoms
 ---
 
@@ -52,8 +52,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 /*doc
 ---
 title: Side modifiers
-name: 2_media_sides
-parent: 1_media
+name: media_sides
+parent: media
 ---
 
 Applying modifier classes (`.media--left` or `.media--right`) floats the image next to the text.
@@ -74,7 +74,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 ```
 
-
 ```html_example
 <div class="media media--right">
     <figure class="media__img">
@@ -90,7 +89,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
 ```
-
 */
 
 .media--left,
@@ -118,8 +116,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 /*doc
 ---
 title: Block side modifiers
-name: 3_media_block_sides
-parent: 1_media
+name: media_block_sides
+parent: media
 ---
 
 Applying modifier classes (`.media--block-left` or `.media--block-right`) floats the image and prevents the text wrapping.
@@ -140,7 +138,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 ```
 
-
 ```html_example
 <div class="media media--block-right">
     <figure class="media__img">
@@ -156,7 +153,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
 ```
-
 */
 
 .media--block-left,
@@ -192,8 +188,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 /*doc
 ---
 title: Responsive modifiers
-name: 3_media_responsive
-parent: 1_media
+name: media_responsive
+parent: media
 ---
 
 Applying modifier classes changes the layout based on screen-size
@@ -214,7 +210,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 ```
 
-
 ```html_example
 <div class="media media--right--medium">
     <figure class="media__img">
@@ -230,7 +225,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
 ```
-
 */
 
 
@@ -244,7 +238,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         }
     }
 }
-
 
 .media--left--medium {
     @include respond-to(medium) {
