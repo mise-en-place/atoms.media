@@ -30,6 +30,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 */
 
+@import "utility-screen-reader-only";
+@import "tool-retina-image";
+@import "tool-rem-calc";
+@import "breakpoint";
+
 .media {
     @include clearfix;
 }
@@ -90,6 +95,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 ```
 */
+
+@import "utility-clearfix";
+@import "tool-rem-calc";
+@import "breakpoint";
 
 .media--left,
 .media--right {

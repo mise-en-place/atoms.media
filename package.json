@@ -18,5 +18,10 @@
     "url": "https://github.com/mise-en-place/atoms.media.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-utilities.clearfix": "github:mise-en-place/utilities.clearfix",
+    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
+    "breakpoint-sass": "^2.7.1"
+  }
 }
