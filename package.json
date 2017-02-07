@@ -5,7 +5,7 @@
   "main": "stylesheets/_media.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "media",
+    "name": "atom-media",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
