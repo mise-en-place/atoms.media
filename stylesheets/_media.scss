@@ -30,10 +30,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 */
 
-@import "utility-screen-reader-only";
-@import "tool-retina-image";
-@import "tool-rem-calc";
-@import "breakpoint";
+@import "~mep-utilities.screen-reader-only";
+@import "~mep-tools.retina-image";
+@import "~mep-tools.rem-calc";
+@import "~breakpoint-sass";
 
 .media {
     @include clearfix;
@@ -96,9 +96,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 */
 
-@import "utility-clearfix";
-@import "tool-rem-calc";
-@import "breakpoint";
+@import "~mep-utilities.clearfix";
+@import "~mep-tools.rem-calc";
+@import "~breakpoint-sass";
 
 .media--left,
 .media--right {
